@@ -37,10 +37,10 @@ class Control:
 
 #definicion de metodos setCanal y setVolumen
 
-    def setCanal(self):
-        self.tv.setCanal()
-    def setVolumen(self):
-        self.tv.setVolumen()
+    def setCanal(self,canal):
+        self.tv.setCanal(canal)
+    def setVolumen(self,volumen):
+        self.tv.setVolumen(volumen)
 
 #definicion de metodo enlazar
 
