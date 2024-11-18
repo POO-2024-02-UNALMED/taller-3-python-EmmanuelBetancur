@@ -10,6 +10,7 @@ class TV:
         self.precio = 500
         self.volumen = 1
         self.control = None
+        TV.numTV += 1
 
 #Definicion de set y get para los atributos marca, canal, precio, volumen y control
 
