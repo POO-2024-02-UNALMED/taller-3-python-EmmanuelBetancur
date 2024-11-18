@@ -1,6 +1,7 @@
 class TV:
 
-#definicion de atributos
+#definicion de atributos   
+ 
     numTV = 0
     def __init__ (self, marca, estado):
         self.marca = marca
@@ -65,6 +66,6 @@ class TV:
     def volumenUp(self):
         if self.volumen < 7 and self.estado is True:
             self.volumen += 1
-    def voluemnDown(self):
+    def volumenDown(self):
         if self.volumen > 0 and self.estado is True:
             self.volumen -= 1
