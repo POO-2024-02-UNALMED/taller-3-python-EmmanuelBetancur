@@ -2,16 +2,16 @@ from televisores.tv import TV
 
 class Control:
 
+    #definicion de atributo tv
+
+    def __init__ (self):
+        self.tv = None
+
 #definicion de set y get del atributo Tv
 
     def getTv(self):
         return self.tv
     def setTv(self,tv):
-        self.tv = tv
-
-#definicion de atributo tv
-
-    def __init__ (self,tv):
         self.tv = tv
 
 #definicion de metodos turnOn y turnOff
