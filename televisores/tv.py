@@ -37,9 +37,9 @@ class TV:
         return self.control
 
 #definicion de set y get para el atributo de clase numTV
-    def setNumTV(self, numTV):
+    def setNumTV(numTV):
         TV.numTV = numTV
-    def getNumTV(self):
+    def getNumTV():
         return TV.numTV
 
 #definicion de turnOff y turnOn
